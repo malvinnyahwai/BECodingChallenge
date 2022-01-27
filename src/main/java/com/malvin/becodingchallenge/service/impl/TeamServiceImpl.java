@@ -2,11 +2,13 @@ package com.malvin.becodingchallenge.service.impl;
 
 import com.malvin.becodingchallenge.pojo.Team;
 import com.malvin.becodingchallenge.service.TeamService;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class TeamServiceImpl implements TeamService {
     private final List<Team> teamList = new ArrayList<>();
     @Override
