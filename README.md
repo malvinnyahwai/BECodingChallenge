@@ -2,6 +2,8 @@
 
 This is a spring boot program written using Java. It takes a file containing the results of each game, one per line, as shown below. It will output an ordered table using points. These points are editable in application.properties.
 
+## Checkout master branch
+
 ### To build the project and install it in your local repository
 
 ```
