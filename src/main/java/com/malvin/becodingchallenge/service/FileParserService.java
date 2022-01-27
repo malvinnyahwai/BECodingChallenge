@@ -1,5 +1,7 @@
 package com.malvin.becodingchallenge.service;
 
+import java.util.List;
+
 public interface FileParserService {
-    String handle(String source);
+    List<String> readResultsFromFileToAList(String source);
 }
